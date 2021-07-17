@@ -24,7 +24,7 @@ import java.util.List;
  * @contact:
  */
 @RestController
-@RequestMapping("/api/v1/employee")
+@RequestMapping("/employee")
 public class EmployeeController {
 
     private final EmployeeService employeeService;
