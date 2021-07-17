@@ -5,14 +5,13 @@
  *
  */
 
-package controller;
+package com.example.employeemanagerwithangular.controller;
 
 import com.example.employeemanagerwithangular.model.Employee;
+import com.example.employeemanagerwithangular.services.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import repository.EmployeeRepository;
-import services.EmployeeService;
 
 import java.util.List;
 
@@ -26,6 +25,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/employee")
 public class EmployeeController {
+
 
     private final EmployeeService employeeService;
 

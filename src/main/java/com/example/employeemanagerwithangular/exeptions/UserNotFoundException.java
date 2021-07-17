@@ -5,7 +5,7 @@
  *
  */
 
-package exeptions;
+package com.example.employeemanagerwithangular.exeptions;
 
 /**
  * Class Description :
