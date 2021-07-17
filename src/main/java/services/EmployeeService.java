@@ -11,6 +11,7 @@ import com.example.employeemanagerwithangular.model.Employee;
 import exeptions.UserNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import repository.EmployeeRepository;
 
 import java.util.List;
@@ -24,6 +25,7 @@ import java.util.UUID;
  * @contact:
  */
 @Service
+//@Transactional
 public class EmployeeService {
     private final EmployeeRepository employeeRepository;
 
