@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class EmployeeManagerWithAngularApplication {
 
    @RequestMapping("/")
+
+   @RequestMapping("/")
+ 
     @ResponseBody
     String home() {
         return "Employee API for ANGULAR ";
