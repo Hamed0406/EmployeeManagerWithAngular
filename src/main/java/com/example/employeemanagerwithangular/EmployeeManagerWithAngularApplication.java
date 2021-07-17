@@ -7,17 +7,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 
-@Controller
+//@Controller
 
 @SpringBootApplication
 public class EmployeeManagerWithAngularApplication {
 
-    @RequestMapping("/")
+  /* @RequestMapping("/")
     @ResponseBody
     String home() {
         return "Employee API for ANGULAR ";
     }
-
+*/
     public static void main(String[] args) {
         SpringApplication.run(EmployeeManagerWithAngularApplication.class, args);
     }

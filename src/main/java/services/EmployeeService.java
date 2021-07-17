@@ -25,7 +25,7 @@ import java.util.UUID;
  * @contact:
  */
 @Service
-@Transactional
+//@Transactional
 public class EmployeeService {
     private final EmployeeRepository employeeRepository;
 
