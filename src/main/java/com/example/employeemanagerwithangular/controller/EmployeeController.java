@@ -22,6 +22,7 @@ import java.util.List;
  * @version 1.0 17 Jul 2021
  * @contact:
  */
+
 @RestController
 @RequestMapping("/api/v1/employee")
 public class EmployeeController {
