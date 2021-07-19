@@ -29,6 +29,7 @@ public class EmployeeManagerWithAngularApplication {
     public static void main(String[] args) {
         SpringApplication.run(EmployeeManagerWithAngularApplication.class, args);
     }
+    //specifying from where frontend request is coming.
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
